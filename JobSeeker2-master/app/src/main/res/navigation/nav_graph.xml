@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/internships">
+
+    <fragment
+        android:id="@+id/internships"
+        android:name="com.akrwt.innerwork.InternshipFragment"
+        android:label="Internships"
+        tools:layout="@layout/fragment_internships"/>
+    <fragment
+        android:id="@+id/resume"
+        android:name="com.akrwt.innerwork.ResumeFragment"
+        android:label="Resume"
+        tools:layout="@layout/fragment_resume"/>
+    <fragment
+        android:id="@+id/contact_us"
+        android:name="com.akrwt.innerwork.ContactUsFragment"
+        android:label="Contact Us"
+        tools:layout="@layout/fragment_contact_us" />
+    <fragment
+        android:id="@+id/about_us"
+        android:name="com.akrwt.innerwork.AboutFragment"
+        android:label="About"
+        tools:layout="@layout/fragment_about" />
+</navigation>

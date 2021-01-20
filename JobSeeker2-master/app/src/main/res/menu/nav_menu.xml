@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:icon="@drawable/ic_intern"
+        android:id="@+id/internships"
+        android:title="Internships/Jobs"/>
+
+
+
+    <item
+        android:icon="@drawable/ic_share"
+        android:id="@+id/profile"
+        android:title="Profile"/>
+
+    <item
+        android:icon="@drawable/ic_baseline_backup_24"
+        android:id="@+id/applied"
+        android:title="Applied Internships/Jobs"/>
+    <item
+        android:icon="@drawable/ic_baseline_info_24"
+        android:id="@+id/aboutus"
+        android:title="About Us"/>
+    <item
+        android:icon="@drawable/ic_contact_mail"
+        android:id="@+id/contactus"
+        android:title="Contact Us"/>
+    <item
+        android:icon="@drawable/ic_log_out"
+        android:id="@+id/logout"
+        android:title="Log Out"/>
+</menu>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    app:cardCornerRadius="2dp"
+    app:cardUseCompatPadding="true"
+    app:cardElevation="2dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/header_logo"
+        android:layout_width="50dp"
+        android:src="@drawable/innerwork_logo"
+        android:layout_height="50dp"/>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_marginStart="10dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:id="@+id/header_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Full Name" />
+
+        <TextView
+            android:textColor="@android:color/black"
+            android:id="@+id/header_email"
+            android:layout_width="match_parent"
+            android:text="Email-Id"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
